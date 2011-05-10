@@ -6,6 +6,15 @@
 <meta name="keywords" content="">
 <meta name="description" content="">
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+<script language="javascript">
+function chm1(a){
+	document.getElementById("m"+a).className="m"+a+"2";
+}
+function chm2(a){
+	document.getElementById("m"+a).className="m"+a+"1";
+}
+</script>
 <title>礼品页</title>
 </head>
 
@@ -14,7 +23,12 @@
 	<div id="header">
     	<div id="logo"><a href="index.html"><img src="images/logo_sub.gif" /></a></div>
         <div id="menu">
-        
+        	<ul>
+            	<li id="m0" class="m01" onmouseover="chm1(0)" onmouseout="chm2(0)"><a href="index.html"><div style="width:125px; height:84px;"></div></a></li>
+                <li id="m1" class="m11" onmouseover="chm1(1)" onmouseout="chm2(1)"><a href="index.html"><div style="width:125px; height:84px;"></div></a></li>
+                <li id="m2" class="m21" onmouseover="chm1(2)" onmouseout="chm2(2)"><a href="index.html"><div style="width:125px; height:84px;"></div></a></li>
+                <li style="clear:both;"></li>
+            </ul>
         </div>
         <div style="clear:both"></div>
     </div>

@@ -13,4 +13,10 @@ h1,h2,h3,h4,h5{margin:0px;padding:0px}
 #main{width:960px; display:inline-block; margin:0 auto;}
 #header{width:960px; height:84px; display:inline-block; margin-top:10px;}
 #logo{width:144px; height:84px; float:left;}
-#menu{width:820px; height:84px; float:left;}
+#menu{width:814px; height:84px; float:left;}
+.m01{width:125px; height:84px; float:left; background:url(../images/menu01.png) no-repeat;}
+.m02{width:125px; height:84px; float:left; background:url(../images/menu02.png) no-repeat;}
+.m11{width:125px; height:84px; float:left; background:url(../images/menu11.png) no-repeat;}
+.m12{width:125px; height:84px; float:left; background:url(../images/menu12.png) no-repeat;}
+.m21{width:125px; height:84px; float:left; background:url(../images/menu21.png) no-repeat;}
+.m22{width:125px; height:84px; float:left; background:url(../images/menu22.png) no-repeat;}
