@@ -20,3 +20,29 @@ h1,h2,h3,h4,h5{margin:0px;padding:0px}
 .m12{width:125px; height:84px; float:left; background:url(../images/menu12.png) no-repeat;}
 .m21{width:125px; height:84px; float:left; background:url(../images/menu21.png) no-repeat;}
 .m22{width:125px; height:84px; float:left; background:url(../images/menu22.png) no-repeat;}
+.m31{width:125px; height:84px; float:left; background:url(../images/menu31.png) no-repeat;}
+.m32{width:125px; height:84px; float:left; background:url(../images/menu32.png) no-repeat;}
+.m41{width:125px; height:84px; float:left; background:url(../images/menu41.png) no-repeat;}
+.m42{width:125px; height:84px; float:left; background:url(../images/menu42.png) no-repeat;}
+.m51{width:125px; height:84px; float:left; background:url(../images/menu51.png) no-repeat;}
+.m52{width:125px; height:84px; float:left; background:url(../images/menu52.png) no-repeat;}
+#bd1{width:960px; height:25px; background:url(../images/border1.png); margin:0 auto; margin-top:30px;}
+#bd5{width:960px; background:url(../images/border5.png) repeat-y; margin:0 auto;}
+#bd2{width:25px; height:1px; float:left;}
+#content{width:910px; float:left; background:url(../images/bg2.jpg);}
+#bd3{width:25px; height:1px; float:left;}
+#bd4{width:960px; height:25px; background:url(../images/border4.png); margin:0 auto;}
+#b1{width:910px; height:40px; margin-top:20px;}
+#c1{width:910px; height:445px; margin-top:20px; margin-bottom:20px;}
+#co1{width:380px; height:445px; float:left; margin-left:50px;_margin-left:25px;}
+#coo1{width:380px; height:380px; background:url(../images/T1Px4lXfEIH0QjxDw6_062833.jpg);}
+#cob1{width:380px; height:60px; background:url(../images/bg01.jpg);} 
+#co2{width:380px; height:445px; float:left; margin-left:50px;_margin-left:45px;}
+#coo2{width:380px; height:380px; background:url(../images/28100501992.jpg);}
+#cob2{width:380px; height:60px; background:url(../images/bg02.jpg);}
+
+#line{width:960px; height:3px; margin-top:20px; background:url(../images/line.jpg);} 
+#footer{width:460px; height:84px; margin:0 auto; margin-top:15px;}
+#f1{width:144px; height:84px; float:left;}
+#f2{width:50px; height:84px; float:left; margin-left:20px; background:url(../images/line2.png);}
+#f3{height:84px; float:left; margin-left:20px; color:#ccc; text-align:left;_line-height:14px;}
