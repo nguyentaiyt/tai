@@ -1,0 +1,13 @@
+body{padding:0px 0px 0px 0px;margin:auto;text-align:center;font-size:12px; background:url(../images/bg.jpg);}
+img{border:0px}
+li{list-style-type:none}
+div{overflow:hidden}
+a:link {color: #000000; text-decoration:none;}
+a:visited {color:#000000;text-decoration:none;}
+a:hover {color:#ff0000; text-decoration:underline;}
+a:active {color: #ff0000;}
+form{margin:0px;padding:0px}
+h1,h2,h3,h4,h5{margin:0px;padding:0px}
+
+/*首页*/
+#main{width:960px; display:inline-block; margin:0 auto;}*/
