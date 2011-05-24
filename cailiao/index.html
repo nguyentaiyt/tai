@@ -6,12 +6,43 @@
 <meta name="keywords" content="">
 <meta name="description" content="">
 <link rel="stylesheet" type="text/css" href="css/style2.css"/>
+<script language="javascript">
+function chm1(a){
+	document.getElementById("mn"+a).className="mn"+a+"1";
+}
+function chm2(a){
+	document.getElementById("mn"+a).className="mn"+a+"0";
+}
+</script>
 <title>钛材料</title>
 </head>
 
 <body>
 <div id="main">
-
+	<div id="header">
+    	<div id="logo"><a href="index.html"><img src="images/logo.jpg" /></a></div>
+        <div id="logo2"></div>
+        <div style="clear:both;"></div>
+    </div>
+    <!--导航开始-->
+    <div id="menu">
+        <ul>
+        	<li id="mnleft"></li>
+            <li id="mn0" class="mn02"><a href="index.html"><div style="width:100px; height:45px;"></div></a></li>
+            <li id="mn1" class="mn10" onmouseover="chm1(1)" onmouseout="chm2(1)"><a href="index.html"><div style="width:100px; height:45px;"></div></a></li>
+            <li id="mn2" class="mn20" onmouseover="chm1(2)" onmouseout="chm2(2)"><a href="index.html"><div style="width:100px; height:45px;"></div></a></li>
+            <li id="mn3" class="mn30" onmouseover="chm1(3)" onmouseout="chm2(3)"><a href="index.html"><div style="width:100px; height:45px;"></div></a></li>
+            <li id="mn4" class="mn40" onmouseover="chm1(4)" onmouseout="chm2(4)"><a href="index.html"><div style="width:100px; height:45px;"></div></a></li>
+            <li id="mn5" class="mn50" onmouseover="chm1(5)" onmouseout="chm2(5)"><a href="index.html"><div style="width:100px; height:45px;"></div></a></li>
+            <li id="mn6" class="mn60" onmouseover="chm1(6)" onmouseout="chm2(6)"><a href="index.html"><div style="width:100px; height:45px;"></div></a></li>
+            <li id="mn7" class="mn70" onmouseover="chm1(7)" onmouseout="chm2(7)"><a href="index.html"><div style="width:100px; height:45px;"></div></a></li>
+            <li id="mn8" class="mn80" onmouseover="chm1(8)" onmouseout="chm2(8)"><a href="index.html"><div style="width:100px; height:45px;"></div></a></li>
+            <li id="mnmid"></li>
+            <li id="mnright"></li>
+            <li style="clear:both;"></li>
+        </ul>
+    </div>
+    <!--导航结束-->
 </div>
 </body>
 </html>

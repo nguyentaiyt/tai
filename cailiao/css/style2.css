@@ -1,4 +1,4 @@
-body{padding:0px 0px 0px 0px;margin:auto;text-align:center;font-size:12px; background:url(../images/bg.jpg);}
+body{padding:0px 0px 0px 0px;margin:0; font-size:12px; background:url(../images/bg.jpg);}
 img{border:0px}
 li{list-style-type:none}
 div{overflow:hidden}
@@ -10,4 +10,40 @@ form{margin:0px;padding:0px}
 h1,h2,h3,h4,h5{margin:0px;padding:0px}
 
 /*首页*/
-#main{width:960px; display:inline-block; margin:0 auto;}*/
+#main{width:960px; margin:0 auto;}
+#header{width:960px; height:70px;}
+#logo{width:585px; height:70px; float:left;}
+#logo2{width:375px; height:70px; float:left;}
+#menu{width:960px; height:45px; overflow:hidden; margin-top:10px;}
+#menu ul li{height:45px; float:left; display:block;}
+#menu ul{ margin-top:0px; margin-left:-40px;}
+#mnleft{width:29px; background:url(../images/menubg.jpg) repeat-x;}
+.mn00{width:100px; background:url(../images/menu00.jpg) no-repeat;}
+.mn10{width:100px; background:url(../images/menu10.jpg) no-repeat;}
+.mn20{width:100px; background:url(../images/menu20.jpg) no-repeat;}
+.mn30{width:100px; background:url(../images/menu30.jpg) no-repeat;}
+.mn40{width:100px; background:url(../images/menu40.jpg) no-repeat;}
+.mn50{width:100px; background:url(../images/menu50.jpg) no-repeat;}
+.mn60{width:100px; background:url(../images/menu60.jpg) no-repeat;}
+.mn70{width:100px; background:url(../images/menu70.jpg) no-repeat;}
+.mn80{width:100px; background:url(../images/menu80.jpg) no-repeat;}
+#mnmid{width:1px; background-color:#FFF;}
+#mnright{width:30px; background:url(../images/menubg.jpg) repeat-x;}
+.mn01{width:100px; background:url(../images/menu01.jpg) no-repeat;}
+.mn11{width:100px; background:url(../images/menu11.jpg) no-repeat;}
+.mn21{width:100px; background:url(../images/menu21.jpg) no-repeat;}
+.mn31{width:100px; background:url(../images/menu31.jpg) no-repeat;}
+.mn41{width:100px; background:url(../images/menu41.jpg) no-repeat;}
+.mn51{width:100px; background:url(../images/menu51.jpg) no-repeat;}
+.mn61{width:100px; background:url(../images/menu61.jpg) no-repeat;}
+.mn71{width:100px; background:url(../images/menu71.jpg) no-repeat;}
+.mn81{width:100px; background:url(../images/menu81.jpg) no-repeat;}
+.mn02{width:100px; background:url(../images/menu02.jpg) no-repeat;}
+.mn12{width:100px; background:url(../images/menu12.jpg) no-repeat;}
+.mn22{width:100px; background:url(../images/menu22.jpg) no-repeat;}
+.mn32{width:100px; background:url(../images/menu32.jpg) no-repeat;}
+.mn42{width:100px; background:url(../images/menu42.jpg) no-repeat;}
+.mn52{width:100px; background:url(../images/menu52.jpg) no-repeat;}
+.mn62{width:100px; background:url(../images/menu62.jpg) no-repeat;}
+.mn72{width:100px; background:url(../images/menu72.jpg) no-repeat;}
+.mn82{width:100px; background:url(../images/menu82.jpg) no-repeat;}
