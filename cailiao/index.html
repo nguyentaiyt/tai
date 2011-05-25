@@ -6,6 +6,8 @@
 <meta name="keywords" content="">
 <meta name="description" content="">
 <link rel="stylesheet" type="text/css" href="css/style2.css"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script language="javascript" src="js/ad.js"></script>
 <script language="javascript">
 function chm1(a){
 	document.getElementById("mn"+a).className="mn"+a+"1";
@@ -14,6 +16,66 @@ function chm2(a){
 	document.getElementById("mn"+a).className="mn"+a+"0";
 }
 </script>
+<!--ad css-->
+<style type="text/css">
+                .container {
+                    width: 960px;
+                    padding: 0;
+                    margin: 0 auto;
+                }
+                .folio_block {
+                   
+                }
+
+
+                /*--Main Container--*/
+                .main_view {
+                    float: left;
+                    position: relative;
+                }
+                /*--Window/Masking Styles--*/
+                .window {
+                    height:360px;	width: 960px;
+                    overflow: hidden; /*--Hides anything outside of the set width/height--*/
+                    position: relative;
+                }
+                .image_reel {
+                    position: absolute;
+                    top: 0; left: 0;
+                }
+                .image_reel img {float: left;}
+
+                /*--Paging Styles--*/
+                .paging {
+                    position: absolute;
+                    bottom: 20px; right:0;
+                    width: 178px; height:32px;
+                    z-index: 100; /*--Assures the paging stays on the top layer--*/
+                    text-align: center;
+                    line-height: 40px;
+                    display: none; /*--Hidden by default, will be later shown with jQuery--*/
+                }
+                .paging a {
+                    padding: 5px;
+                    text-decoration: none;
+                    color: #fff;
+					font-weight: bold;
+                    background:#999;
+                    border: 1px solid #999;
+                    -moz-border-radius: 3px;
+                    -khtml-border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                }
+                .paging a.active {
+                    font-weight: bold;
+                    background:#666;
+                    border: 1px solid #666;
+                    -moz-border-radius: 3px;
+                    -khtml-border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                }
+                .paging a:hover {font-weight: bold;}
+</style>
 <title>钛材料</title>
 </head>
 
@@ -43,6 +105,32 @@ function chm2(a){
         </ul>
     </div>
     <!--导航结束-->
+    <!--js广告（240*270）开始-->
+    <div class="container">
+
+            <div class="folio_block">
+
+                <div class="main_view">
+                    <div class="window">
+                        <div style="width: 3160px; left: -2370px;"
+                             class="image_reel">
+                            <a href="http://www.duice.net/html/list_624.html"><img src="js/ad1.jpg" alt=""/></a>
+                            <a href="http://www.duice.net/html/list_624.html"><img src="js/ad2.jpg" alt=""/></a>
+                            <a href="http://www.duice.net/html/list_624.html"><img src="js/ad3.jpg" alt=""/></a>
+                            <a href="http://www.duice.net/html/list_624.html"><img src="js/ad4.jpg" alt=""/></a>
+                        </div>
+                    </div>
+                    <div style="display: block;" class="paging">
+                        <a class="" href="http://www.duice.net/html/list_624.html" rel="1">1</a>
+                        <a class="" href="http://www.duice.net/html/list_624.html" rel="2">2</a>
+                        <a class="" href="http://www.duice.net/html/list_624.html" rel="3">3</a>
+                        <a class="" href="http://www.duice.net/html/list_624.html" rel="4">4</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     <!--js广告（250*280）结束-->
 </div>
 </body>
 </html>
